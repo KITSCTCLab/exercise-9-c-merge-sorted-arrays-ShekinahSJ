@@ -16,6 +16,10 @@ def merge(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
           nums1[k] = small_b[j]
           j+=1
       k+=1
+   while i<len(small_a):
+        nums1[k]=small_a[i]
+        i+=1
+        k+=1
 
 
 # Do not change the following code
